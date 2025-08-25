@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+header, .rodape {
+    background-color: #2F86D6;
+}
+
+/* Topo */
+
+.topo {
+    width: 1024px;
+    padding: 35px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 297px;
+}
+
+.container-logo img {
+    width: 69px;
+}
+
+.texto-logo h1 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.texto-logo p {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.container-menu {
+    width: 383px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+}
+
+.container-menu a {
+    font-size: 18px;
+    font-weight: 590;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Tabela de Preços */
+
+main {
+    padding: 100px 0;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.tabela-precos {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.tabela-precos th, .tabela-precos .coluna-destaque {
+    background-color: #F1F3F7;
+}
+
+.tabela-precos th {
+    padding:  28px 17px;
+}
+
+.tabela-precos th h2 {
+    font-size: 28px;
+}
+
+.tabela-precos th p {
+    font-size: 11px;
+    color: #A89F9F;
+    max-width: 130px;
+    margin: 0 auto;
+    font-weight: 490;
+}
+
+.celula-invisivel {
+    visibility: hidden;
+}
+
+.coluna-destaque {
+    text-align: left;
+    font-weight: 500;
+    padding-left: 36px;
+}
+
+.tabela-precos tr {
+    font-size: 15px;
+    height: 56px;
+    font-weight: 400;
+}
+
+.tabela-precos td {
+    box-shadow: #A89F9F 1px 1px 3px -2.5px;
+}
+
+.circulo-azul {
+    background-color: #2F86D6;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* Rodapé */
+
+.rodape {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 23px;
+}
+
+.rodape p {
+    color: #FFF;
+}
+
+.creditos {
+    padding: 20px 0;
+    background-color: #F1F3F7;
+}
+
+.creditos p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+}
+
+.creditos span {
+    color: #2F86D6;
+}
